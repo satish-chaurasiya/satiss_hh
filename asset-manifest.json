@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/satiss_hh/static/css/main.70686dca.css",
+    "main.js": "/satiss_hh/static/js/main.dc6cd9bd.js",
+    "static/js/453.177841cc.chunk.js": "/satiss_hh/static/js/453.177841cc.chunk.js",
+    "static/media/4243109.jpg": "/satiss_hh/static/media/4243109.20d804dd347b09af5a34.jpg",
+    "index.html": "/satiss_hh/index.html",
+    "main.70686dca.css.map": "/satiss_hh/static/css/main.70686dca.css.map",
+    "main.dc6cd9bd.js.map": "/satiss_hh/static/js/main.dc6cd9bd.js.map",
+    "453.177841cc.chunk.js.map": "/satiss_hh/static/js/453.177841cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70686dca.css",
+    "static/js/main.dc6cd9bd.js"
+  ]
+}
