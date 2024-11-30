@@ -1,0 +1,37 @@
+.home {
+    text-align: center;
+    background-color: #f7fafc5b;
+    padding: 4rem 2rem;
+}
+
+.hero {
+    max-width: 800px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #2b6cb0; 
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin: 4rem 11rem;
+}
+
+.cta-button {
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    margin-top: 10%;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #0097a7;
+}
