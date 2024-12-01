@@ -15,12 +15,12 @@ function Project() {
                     </ul>
                 </div>
                 <div className="card">
-                    <h3>Middleware Framework</h3>
+                    <h3>DevFriends Project</h3>
                     <p>
-                        A scalable middleware framework built with Spring Boot to integrate payment gateways with high efficiency.
+                        A project that lets group of developer colab together setting the goals for each one and finally achieving it faster.
                     </p>
                     <ul>
-                        <li>Technologies: Java, Spring Boot, MySQL, Redis</li>
+                        <li>Technologies: Java, Spring Boot, MySQL, Redis,Spring security,React</li>
                     </ul>
                 </div>
             </div>

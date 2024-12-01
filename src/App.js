@@ -11,15 +11,16 @@ import { Container } from '@mui/material';
 
 
 function App() {
+
   return (
      <Container maxWidth="lg">
       <Router>
         <Navbar/>
           <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/project" element={<Project />} />
-              <Route path="/contact" element={<Contact />} />
+              <Route path="/satiss_hh" element={<Home />} />
+              <Route path="/satiss_hh/about" element={<About />} />
+              <Route path="/satiss_hh/project" element={<Project />} />
+              <Route path="/satiss_hh/contact" element={<Contact />} />
           </Routes>
       </Router>
      </Container>
