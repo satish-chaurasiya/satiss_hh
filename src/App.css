@@ -2,6 +2,7 @@ body {
   background-image: url('./images/4243109.jpg');
   background-size: cover;  
   font-family: monospace;
+  cursor: url('./images/154937.svg') ,auto;
 }
 
 .App {
