@@ -9,6 +9,12 @@
     color: blueviolet;
 }
 
+@media (max-width :768px) {
+    .navbar {
+    flex-direction: column;
+    }
+}
+
 .navbar-logo {
     font-size: 1.5rem;
     font-weight: bold;

@@ -11,7 +11,7 @@ h2 {
 }
 
 .content p {
-    color: #2d3748;
+    color: #000000;
     font-size: 1.1rem;
     margin-bottom: 2rem;
 }
@@ -41,11 +41,11 @@ h2 {
 
 .card h4 {
     font-size: 1.3rem;
-    color: #4a5568;
+    color: #000000;
     margin-bottom: 1rem;
 }
 
 .card p {
     font-size: 1rem;
-    color: #718096;
+    color: #000000;
 }
