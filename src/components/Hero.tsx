@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col} from 'react-bootstrap';
 import profileImg from '../assets/profile.jpg'
 
 interface HeroProps {
@@ -20,8 +20,11 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
               <h1 className="lead mb-4 fw-bold" style={{ fontSize: '4rem', opacity: 0.9 }}>
                 {data.title}
               </h1>
-              <p className="lead mb-5" style={{ fontSize: '1.25rem', opacity: 0.9 }}>
+              <p className="lead mb-5 fw-bold" style={{ fontSize: '1.25rem', opacity: 0.9 }}>
                 {data.subtitle}
+              </p>
+              <p className="lead mb-5 fw-bold" style={{ fontSize: '1.25rem', opacity: 0.9 }}>
+                <a href="https://1drv.ms/w/s!Al9yIj3x9O0cjZ53ihRE8fVy15Fa1g?e=vyvIeA" className="resume-url m-2 p-2"><span>Checkout my resume</span></a>
               </p>
             </div>
             <div className="avatar-container mb-5">

@@ -131,3 +131,20 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(255, 105, 180, 0.4);
 }
+
+.nav-logo{
+  color: var(--anime-gradient) !important;
+  border: 3px var(--anime-gradient) solid !important;
+  border-radius: 50%;
+}
+
+.resume-url{
+  color: white !important;
+  background-color: #9370DB !important;
+  text-decoration: none;
+}
+
+.resume-url:hover{
+  background-color: #3e168d !important;
+  border: 1px white solid;
+}

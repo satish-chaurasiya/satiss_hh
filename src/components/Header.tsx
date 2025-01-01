@@ -17,7 +17,9 @@ const Header: React.FC<HeaderProps> = ({ data }) => {
     <Navbar bg="white" expand="lg" className="py-3">
       <Container>
         <Navbar.Brand href="#home" className="fs-4 fw-bold text-primary">
-          {data.logo}
+          <div className='nav-logo'>
+            {data.logo}
+          </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
