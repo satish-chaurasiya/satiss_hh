@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import profileImg from '../assets/profile.jpg'
 
 interface HeroProps {
   data: {
@@ -16,7 +17,7 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
         <Row className="justify-content-center">
           <Col md={8}>
             <div className="mb-5">
-              <h1 className="display-4 fw-bold mb-4" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.2)' }}>
+              <h1 className="lead mb-4 fw-bold" style={{ fontSize: '4rem', opacity: 0.9 }}>
                 {data.title}
               </h1>
               <p className="lead mb-5" style={{ fontSize: '1.25rem', opacity: 0.9 }}>
@@ -25,7 +26,7 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
             </div>
             <div className="avatar-container mb-5">
               <img
-                src={data.avatarUrl}
+                src={profileImg}
                 alt="Profile"
                 className="rounded-circle"
                 style={{ width: '200px', height: '200px', objectFit: 'cover' }}
