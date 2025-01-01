@@ -17,11 +17,15 @@ export interface PortfolioData {
     avatarUrl: string;
   };
   skills: {
-    title: string;
-    items: Array<{
-      name: string;
-      icon: string;
+    categories : Array<{
+      name : string ;
+      items : Array<{
+        name : string ;
+        icon : string ;
+      }>;
     }>;
+    title: string;
+
   };
   projects: {
     title: string;

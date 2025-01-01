@@ -3,14 +3,18 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 import { Code, Palette, Server } from 'lucide-react';
 
 interface SkillsProps {
-  data: {
-    title: string;
-    items: Array<{
-      name: string;
-      icon: string;
+  data : {
+    categories : Array<{
+      name : string ;
+      items : Array<{
+        name : string ;
+        icon : string ;
+      }>;
     }>;
+    title: string;
   };
 }
+
 
 const iconMap: { [key: string]: React.ReactNode } = {
   react: <Code size={40} />,
@@ -31,13 +35,15 @@ const Skills: React.FC<SkillsProps> = ({ data }) => {
         {data.title}
       </h2>
       <Row className="g-4">
-        {data.items.map((skill, index) => (
+        {data.categories.map((category, index) => (
           <Col key={index} md={3}>
             <Card className="h-100 border-0 shadow-sm text-center p-4 skills-card">
-              <div className="skills-icon mb-3">
-                {iconMap[skill.icon]}
+            <Card.Title className="fw-bold">{category.name}</Card.Title>
+              <div className="mb-3">
+                {category.items.map((item) => (
+                  <span className='badge bg-primary m-1'>{item.name}</span>
+                ))}
               </div>
-              <Card.Title className="fw-bold">{skill.name}</Card.Title>
             </Card>
           </Col>
         ))}
